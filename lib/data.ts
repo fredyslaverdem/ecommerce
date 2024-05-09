@@ -1,0 +1,48 @@
+const data = {
+  products: [
+    {
+      name: 'Free shirt',
+      slug: 'Free shirt',
+      category: 'Shirts',
+      image: '/images/camired.jpg',
+      price: 15,
+      brand: 'Generica',
+      rating: 4,
+      numReviews: 6,
+      countInStock: 34,
+      description: 'popular camiseta',
+      isFeatured: true,
+      banner: '/images/camired.jpg',
+    },
+    {
+      name: 'Free shirt',
+      slug: 'Free shirt',
+      category: 'Shirts',
+      image: '/images/camired.jpg',
+      price: 15,
+      brand: 'Generica',
+      rating: 4,
+      numReviews: 6,
+      countInStock: 34,
+      description: 'popular camiseta',
+      isFeatured: true,
+      banner: '/images/camired.jpg',
+    },
+    {
+      name: 'Free shirt',
+      slug: 'Free shirt',
+      category: 'Shirts',
+      image: '/images/camired.jpg',
+      price: 15,
+      brand: 'Generica',
+      rating: 4,
+      numReviews: 6,
+      countInStock: 34,
+      description: 'popular camiseta',
+      isFeatured: true,
+      banner: '/images/camired.jpg',
+    },
+  ],
+}
+
+export default data
