@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -22,7 +22,7 @@ export default function RootLayout({
           <Header />
           {children}
           <footer className="footer footer-center p-4 bg-base-300 text-base-content">
-            <p>Proyecto desarrolado por Fredy Laverde | Bootcamp DWFS</p>
+            <p>Proyecto desarrollado por Fredy Laverde | Bootcamp DWFS</p>
           </footer>
         </div>
       </body>

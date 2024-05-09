@@ -2,7 +2,7 @@ const data = {
   products: [
     {
       name: 'Free shirt',
-      slug: 'Free shirt',
+      slug: 'free-shirt',
       category: 'Shirts',
       image: '/images/camired.jpg',
       price: 15,
@@ -15,8 +15,8 @@ const data = {
       banner: '/images/camired.jpg',
     },
     {
-      name: 'Free shirt',
-      slug: 'Free shirt',
+      name: 'Free',
+      slug: 'free',
       category: 'Shirts',
       image: '/images/camired.jpg',
       price: 15,
@@ -29,8 +29,8 @@ const data = {
       banner: '/images/camired.jpg',
     },
     {
-      name: 'Free shirt',
-      slug: 'Free shirt',
+      name: 'shirt',
+      slug: 'shirt',
       category: 'Shirts',
       image: '/images/camired.jpg',
       price: 15,
