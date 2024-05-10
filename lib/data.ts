@@ -1,4 +1,20 @@
+import bcrypt from 'bcryptjs'
+
 const data = {
+  users: [
+    {
+      name: 'John',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'Jane',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
       name: 'Free shirt',
@@ -31,6 +47,20 @@ const data = {
     {
       name: 'shirt',
       slug: 'shirt',
+      category: 'Shirts',
+      image: '/images/camired.jpg',
+      price: 15,
+      brand: 'Generica',
+      rating: 4,
+      numReviews: 6,
+      countInStock: 34,
+      description: 'popular camiseta',
+      isFeatured: true,
+      banner: '/images/camired.jpg',
+    },
+    {
+      name: 'shirt',
+      slug: 'shirttt',
       category: 'Shirts',
       image: '/images/camired.jpg',
       price: 15,
